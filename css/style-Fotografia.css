@@ -1,0 +1,567 @@
+/* ==========================================================================
+   CÓDIGO ORIGINAL (MANTENIDO SIN CAMBIOS PARA ESCRITORIO)
+   ========================================================================== */
+
+.fotografia {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 3708px;
+  position: relative;
+}
+
+.fotografia .home { 
+  position: absolute; 
+  top: 60px; 
+  left: 472px; 
+  width: 257px; 
+  height: 72px; 
+  z-index: 10;
+}
+
+.fotografia .text-wrapper {
+  position: absolute;
+  top: 967px;
+  left: 652px;
+  width: 216px;
+  font-family: "Khand-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 25.3px;
+  white-space: nowrap;
+}
+
+.fotografia .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1940px;
+  height: 3708px;
+  background-color: #0593a2;
+}
+
+.fotografia .div {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 1940px;
+  height: 176px;
+  background-color: #d9d9d9;
+}
+
+.fotografia .text-wrapper-2 {
+  position: absolute;
+  top: 967px;
+  left: 450px;
+  width: 931px;
+  font-family: "Homenaje-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 222px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.fotografia .rectangle-2 {
+  position: absolute;
+  top: 1260px;
+  left: 16px;
+  width: 1820px;
+  height: 904px;
+  background-color: #3d737a;
+  border-radius: 152px;
+}
+
+.fotografia .img {
+  position: absolute;
+  top: 1317px;
+  left: 1099px;
+  width: 590px;
+  height: 395px;
+  object-fit: cover;
+}
+
+.fotografia .rectangle-3 {
+  position: absolute;
+  top: 1747px;
+  left: 1099px;
+  width: 590px;
+  height: 337px;
+  object-fit: cover;
+}
+
+.fotografia .rectangle-4 {
+  position: absolute;
+  top: 212px;
+  left: 233px;
+  width: 505px;
+  height: 621px;
+  object-fit: cover;
+}
+
+.fotografia .rectangle-5 {
+  position: absolute;
+  top: 212px;
+  left: 1123px;
+  width: 505px;
+  height: 621px;
+  object-fit: cover;
+}
+
+.fotografia .rectangle-6 {
+  position: absolute;
+  top: 1395px;
+  left: 629px;
+  width: 423px;
+  height: 617px;
+  object-fit: cover;
+}
+
+.fotografia .siguiente {
+  position: absolute;
+  top: 60px;
+  left: 1080px;
+  width: 257px;
+  height: 72px;
+  z-index: 10;
+}
+
+.fotografia .rectangle-7 {
+  position: absolute;
+  width: 95.34%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0593a2;
+  border-radius: 46px;
+}
+
+.fotografia .p {
+  position: absolute;
+  top: 1320px;
+  left: 106px;
+  width: 450px;
+  font-family: "Khand-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 25.3px;
+}
+
+.fotografia .text-wrapper-4 {
+  position: absolute;
+  top: 1748px;
+  left: 105px;
+  width: 440px;
+  color: #ffffff;
+  font-family: "Khand-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 25.3px;
+}
+
+.fotografia .rectangle-15 {
+  position: absolute;
+  top: 2999px;
+  left: 1010px;
+  width: 667px;
+  height: 644px;
+  object-fit: cover;
+}
+
+.fotografia .text-wrapper-5 {
+  position: absolute;
+  top: 3000px;
+  left: 94px;
+  width: 730px;
+  color: #d9d9d9;
+  font-family: "Khand-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 25.3px;
+}
+
+.fotografia .text-wrapper-6 {
+  position: absolute;
+  top: 3450px;
+  left: 94px;
+  width: 758px;
+  color: #d9d9d9;
+  font-family: "Khand-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 25.3px;
+}
+
+.fotografia .text-wrapper-7 {
+  position: absolute;
+  top: 2832px;
+  left: 102px;
+  width: 760px;
+  font-family: "Akshar-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.fotografia .text-wrapper-8 {
+  position: absolute;
+  top: 3274px;
+  left: 94px;
+  width: 760px;
+  font-family: "Akshar-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.fotografia .text-wrapper-9 {
+  position: absolute;
+  width: 82.18%;
+  height: 64.44%;
+  top: 17.78%;
+  left: 17.82%;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.fotografia .Gallery {
+  position: absolute;
+  top: 2260px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  perspective: 1200px;
+  z-index: 20;
+}
+
+.fotografia .Gallery .cards {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transform-style: preserve-3d;
+}
+
+.fotografia .Gallery .card {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 260px;
+  height: 360px;
+  margin-left: -130px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.5s ease, z-index 0.5s ease;
+  user-select: none;
+}
+
+.fotografia .Gallery .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.fotografia .Gallery .card.active {
+  transform: translate3d(0, 0, 120px) scale(1.1);
+  z-index: 15;
+  opacity: 1;
+}
+
+.fotografia .Gallery .card.next {
+  transform: translate3d(240px, 0, -20px) rotateY(-30deg) scale(0.85);
+  z-index: 8;
+  opacity: 0.65;
+}
+
+.fotografia .Gallery .card.prev {
+  transform: translate3d(-240px, 0, -20px) rotateY(30deg) scale(0.85);
+  z-index: 8;
+  opacity: 0.65;
+}
+
+.fotografia .Gallery .card.hidden {
+  transform: translate3d(0, 0, -250px) scale(0.4);
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.fotografia .gallery-controls {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.fotografia .gallery-controls button {
+  background-color: #1e393c;
+  color: #ffffff;
+  border: 2px solid #0593a2;
+  padding: 10px 24px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fotografia .gallery-controls button:hover {
+  background-color: #0593a2;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(5, 147, 162, 0.4);
+}
+
+.fotografia .gallery-controls button:active {
+  transform: translateY(-1px);
+}
+
+
+/* ==========================================================================
+   BLOQUE RESPONSIVE (TABLTS Y MÓVILES - MENOR A 1100PX)
+   ========================================================================== */
+
+@media (max-width: 1100px) {
+  .fotografia {
+    min-width: 100%;
+    height: auto;
+    min-height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 80px 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+
+  /* Fondos estáticos adaptados a contenedor dinámico */
+  .fotografia .rectangle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .fotografia .div {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  /* Menú de navegación flex superior */
+  .fotografia .home, 
+  .fotografia .siguiente {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 160px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    z-index: 5;
+  }
+
+  /* Contenedor temporal para centrar botones en móvil */
+  body > div.fotografia {
+    padding-top: 110px; 
+  }
+
+  .fotografia .rectangle-7 {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .fotografia .text-wrapper-9 {
+    font-size: 22px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    top: 22%;
+  }
+
+  /* Textos Principales */
+  .fotografia .text-wrapper {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-top: 40px;
+    text-align: center;
+    width: auto;
+    font-size: 28px;
+    z-index: 3;
+    color: #ffffff; /* Ajustado para legibilidad móvil */
+  }
+
+  .fotografia .text-wrapper-2 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    text-align: center;
+    font-size: 70px;
+    line-height: normal;
+    margin-bottom: 30px;
+    z-index: 3;
+  }
+
+  /* Secciones principales e imágenes en una columna limpia */
+  .fotografia .rectangle-2 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    padding: 30px 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  /* Re-estructuración de imágenes dentro del bloque oscuro */
+  .fotografia .rectangle-4,
+  .fotografia .rectangle-5,
+  .fotografia .rectangle-6,
+  .fotografia .img,
+  .fotografia .rectangle-3 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 4/3;
+    margin: 20px 0;
+    border-radius: 12px;
+    z-index: 4;
+  }
+
+  /* Las verticales conservan su proporción */
+  .fotografia .rectangle-4,
+  .fotografia .rectangle-5,
+  .fotografia .rectangle-6 {
+    aspect-ratio: 2/3;
+    max-width: 400px;
+  }
+
+  /* Párrafos informativos */
+  .fotografia .p,
+  .fotografia .text-wrapper-4 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin: 15px 0;
+    z-index: 4;
+  }
+
+  /* Ajuste de escala del Carrusel 3D en pantallas pequeñas */
+  .fotografia .Gallery {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    max-width: 480px;
+    margin: 60px 0;
+    z-index: 3;
+  }
+
+  .fotografia .Gallery .cards {
+    height: 300px;
+  }
+
+  .fotografia .Gallery .card {
+    width: 180px;
+    height: 260px;
+    margin-left: -90px;
+  }
+
+  /* Reducir el desplazamiento lateral en móviles */
+  .fotografia .Gallery .card.next {
+    transform: translate3d(120px, 0, -40px) rotateY(-25deg) scale(0.8);
+  }
+
+  .fotografia .Gallery .card.prev {
+    transform: translate3d(-120px, 0, -40px) rotateY(25deg) scale(0.8);
+  }
+
+  /* Bloque Inferior: Mi Recorrido */
+  .fotografia .text-wrapper-7,
+  .fotografia .text-wrapper-8 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    z-index: 3;
+  }
+
+  .fotografia .text-wrapper-5,
+  .fotografia .text-wrapper-6 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 650px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    z-index: 3;
+  }
+
+  .fotografia .rectangle-15 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    z-index: 3;
+    margin-top: 20px;
+  }
+}

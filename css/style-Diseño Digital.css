@@ -1,0 +1,300 @@
+.diseo { 
+  background-color: #ffffff; 
+  overflow: hidden; 
+  width: 100%; 
+  min-width: 1440px; 
+  min-height: 3708px; 
+  position: relative; 
+}
+
+.diseo .rectangle { 
+  position: absolute; 
+  top: 2337px; 
+  left: 0; 
+  width: 1949px; 
+  height: 1342px; 
+  background-color: #d9d9d9; 
+}
+
+.diseo .div { 
+  position: absolute; 
+  top: 982px; 
+  left: 0; 
+  width: 1940px; 
+  height: 968px; 
+  background-color: #1a6870; 
+}
+
+.diseo .rectangle-2 { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 1940px; 
+  height: 176px; 
+  background-color: #d9d9d9; 
+}
+
+.diseo .img { 
+  position: absolute; 
+  top: 205px; 
+  left: 31px; 
+  width: 1790px; 
+  height: 742px; 
+  object-fit: cover; 
+}
+
+.diseo .text-wrapper { 
+  position: absolute; 
+  top: 205px; 
+  left: 324px; 
+  width: 1040px; 
+  font-family: "Homenaje-Regular", Helvetica; 
+  font-weight: 400; 
+  color: #ffffff; 
+  font-size: 222px; 
+  letter-spacing: 0; 
+  line-height: normal; 
+  white-space: nowrap; 
+}
+
+/* Integración de Oswald: Párrafo principal de introducción */
+.diseo .p { 
+  position: absolute; 
+  top: 850px; 
+  left: 63px; 
+  width: 1109px; 
+  font-family: "Oswald", sans-serif; 
+  font-weight: 400; 
+  color: #ffffff; 
+  font-size: 26px; 
+  letter-spacing: 0; 
+  line-height: 1.4; 
+}
+
+.diseo .text-wrapper-2 { 
+  position: absolute; 
+  top: 1043px; 
+  left: 540px; 
+  width: 635px; 
+  font-family: "Akshar-SemiBold", Helvetica; 
+  font-weight: 600; 
+  color: #ffffff; 
+  font-size: 64px; 
+  letter-spacing: 0; 
+  line-height: normal; 
+  white-space: nowrap; 
+}
+
+/* NUEVO: Contenedor Grid para Mis Mejores Trabajos */
+.diseo .grid-mejores-trabajos { 
+  position: absolute; 
+  top: 1175px; 
+  left: 120px; 
+  width: 1532px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 57px; 
+}
+
+.diseo .text-wrapper-3 { 
+  position: absolute; 
+  top: 1970px; 
+  left: 102px; 
+  width: 570px; 
+  font-family: "Akshar-SemiBold", Helvetica; 
+  font-weight: 600; 
+  color: #0593a2; 
+  font-size: 64px; 
+  letter-spacing: 0; 
+  line-height: normal; 
+}
+
+/* Integración de Oswald: Descripción "Otros Destacados" */
+.diseo .text-wrapper-5 { 
+  left: 102px; 
+  position: absolute; 
+  top: 2130px; 
+  width: 578px; 
+  font-family: "Oswald", sans-serif; 
+  font-weight: 400; 
+  color: #0593a2; 
+  font-size: 24px; 
+  letter-spacing: 0; 
+  line-height: 1.4; 
+}
+
+.diseo .text-wrapper-4 { 
+  position: absolute; 
+  top: 1990px; 
+  left: 1100px; 
+  width: 570px; 
+  font-family: "Akshar-SemiBold", Helvetica; 
+  font-weight: 600; 
+  color: #0593a2; 
+  font-size: 64px; 
+  letter-spacing: 0; 
+  line-height: normal; 
+}
+
+/* Integración de Oswald: Descripción "Habilidad" */
+.diseo .text-wrapper-6 { 
+  left: 1099px; 
+  position: absolute; 
+  top: 2082px; 
+  width: 503px; 
+  font-family: "Oswald", sans-serif; 
+  font-weight: 400; 
+  color: #0593a2; 
+  font-size: 24px; 
+  letter-spacing: 0; 
+  line-height: 1.4; 
+}
+
+.diseo .home { 
+  position: absolute; 
+  top: 54px; 
+  left: 472px; 
+  width: 248px; 
+  height: 67px; 
+}
+
+.diseo .rectangle-6 { 
+  position: absolute; 
+  width: 93.55%; 
+  height: 100%; 
+  top: 0; 
+  left: 0; 
+  background-color: #0593a2; 
+  border-radius: 46px; 
+}
+
+.diseo .text-wrapper-7 { 
+  position: absolute; 
+  width: 76.88%; 
+  height: 64.44%; 
+  top: 17.78%; 
+  left: 23.12%; 
+  font-family: "Inter-Regular", Helvetica; 
+  font-weight: 400; 
+  color: #ffffff; 
+  font-size: 36px; 
+  letter-spacing: 0; 
+  line-height: normal; 
+  white-space: nowrap; 
+}
+
+.diseo .trabajos { 
+  position: absolute; 
+  top: 54px; 
+  left: 690px; 
+  width: 275px; 
+  height: 71px; 
+  background-color: #0593a2; 
+  border-radius: 46px; 
+}
+
+.diseo .text-wrapper-8 { 
+  position: absolute; 
+  width: 82.18%; 
+  height: 64.44%; 
+  top: 17.78%; 
+  left: 17.82%; 
+  font-family: "Inter-Regular", Helvetica; 
+  font-weight: 400; 
+  color: #ffffff; 
+  font-size: 36px; 
+  letter-spacing: 0; 
+  line-height: normal; 
+}
+
+.diseo .siguiente { 
+  position: absolute; 
+  top: 54px; 
+  left: 1080px; 
+  width: 299px; 
+  height: 74px; 
+}
+
+.diseo .rectangle-7 { 
+  position: absolute; 
+  width: 95.34%; 
+  height: 100%; 
+  top: 0; 
+  left: 0; 
+  background-color: #0593a2; 
+  border-radius: 46px; 
+}
+
+.diseo .text-wrapper-9 { 
+  position: absolute; 
+  width: 78.36%; 
+  height: 64.44%; 
+  top: 17.78%; 
+  left: 21.64%; 
+  font-family: "Inter-Regular", Helvetica; 
+  font-weight: 400; 
+  color: #ffffff; 
+  font-size: 36px; 
+  letter-spacing: 0; 
+  line-height: normal; 
+}
+
+/* MODIFICADO: Contenedor Grid dentro de la sección del cuadro gris */
+.diseo .grid-container { 
+  position: absolute; 
+  top: 2460px; 
+  left: 149px; 
+  width: 1532px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 57px; 
+}
+
+/* Estilos de animación base para todas las imágenes de los grids */
+.diseo .grid-item { 
+  width: 100%; 
+  height: 576px; 
+  object-fit: cover; 
+  border-radius: 16px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  transform-origin: center;
+}
+
+/* Efecto Hover */
+.diseo .grid-item:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.35);
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* =======================================================
+   INTEGRACIÓN RESPONSIVE MEDIANTE ESCALADO DINÁMICO
+   ======================================================= */
+@media screen and (max-width: 1940px) {
+  body {
+    overflow-x: hidden;
+    background-color: #d9d9d9; 
+  }
+
+  .diseo {
+    transform: scale(calc(100vw / 1940));
+    transform-origin: top left;
+    
+    min-width: 1940px !important; 
+    width: 1940px !important;
+    
+    height: calc(3708px * (100vw / 1940)) !important;
+    min-height: calc(3708px * (100vw / 1940)) !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Modificado para que Oswald se adapte correctamente en pantallas móviles */
+  .diseo .p, 
+  .diseo .text-wrapper-5, 
+  .diseo .text-wrapper-6 {
+    line-height: 1.4 !important;
+    font-size: 26px !important;
+  }
+}

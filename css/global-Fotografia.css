@@ -1,0 +1,46 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* @FONTWARNING[{"type": "restricted", "family": "Khand-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+@font-face {
+  font-family: "Khand-Regular";
+  src: local("Khand-Regular");
+}
+
+/* @FONTWARNING[{"type": "restricted", "family": "Homenaje-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+@font-face {
+  font-family: "Homenaje-Regular";
+  src: local("Homenaje-Regular");
+}
+
+/* @FONTWARNING[{"type": "restricted", "family": "Inter-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+@font-face {
+  font-family: "Inter-Regular";
+  src: local("Inter-Regular");
+}
+
+/* @FONTWARNING[{"type": "restricted", "family": "Akshar-SemiBold", "weight": "600", "style": "normal", "allowsCrossOrigin": false}] */
+@font-face {
+  font-family: "Akshar-SemiBold";
+  src: local("Akshar-SemiBold");
+}

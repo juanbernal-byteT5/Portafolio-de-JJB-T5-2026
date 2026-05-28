@@ -1,0 +1,780 @@
+.principal {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1700px;
+  min-height: 3708px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.principal .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1950px;
+  height: 852px;
+  background-color: #0593a2;
+}
+
+.principal .div {
+  position: absolute;
+  top: 632px;
+  left: 340px;
+  width: 967px;
+  height: 110px;
+  background-color: #d9d9d9;
+}
+
+.principal .text-wrapper {
+  position: absolute;
+  top: 660px;
+  left: 560px;
+  width: 640px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 45px;
+  white-space: nowrap;
+  color: #0593a2;
+  letter-spacing: 0;
+}
+
+.principal .text-wrapper-2 {
+  position: absolute;
+  top: 137px;
+  left: 728px;
+  width: 216px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 25.3px;
+  white-space: nowrap;
+}
+
+.principal .text-wrapper-3 {
+  position: absolute;
+  top: 208px;
+  left: 309px;
+  width: 1081px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 333px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.principal .text-wrapper-4 {
+  position: absolute;
+  top: 996px;
+  left: 103px;
+  width: 680px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: normal;
+  color: #0593a2;
+  letter-spacing: 0;
+}
+
+.principal .text-wrapper-5 {
+    position: absolute;
+    top: 1687px;
+    left: 170px;
+    width: 420px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    color: #a4a9aa;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.principal .text-wrapper-6 {
+  position: absolute;
+  top: 1940px;
+  left: 103px;
+  width: 294px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #0593a2;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-7 {
+  position: absolute;
+  top: 1920px;
+  left: 865px;
+  width: 570px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #0593a2;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-8 {
+  position: absolute;
+  top: 2340px;
+  left: 1025px;
+  width: 570px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #0593a2;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-9 {
+  position: absolute;
+  top: 2852px;
+  left: 1025px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #0593a2;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-10 {
+  position: absolute;
+  top: 2420px;
+  left: 81px;
+  width: 570px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #0593a2;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-11 {
+  position: absolute;
+  top: 930px;
+  left: 114px;
+  width: 260px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #0593a2;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.principal .text-wrapper-12 {
+  position: absolute;
+  top: 1654px;
+  left: 747px;
+  width: 260px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.principal .text-wrapper-13 {
+  position: absolute;
+  top: 1793px;
+  left: 1312px;
+  width: 270px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-14 {
+  position: absolute;
+  top: 1793px;
+  left: 713px;
+  width: 527px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.principal .text-wrapper-15 {
+  position: absolute;
+  top: 1654px;
+  left: 1226px;
+  width: 318px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.principal .img {
+  position: absolute;
+  top: 1603px;
+  left: 602px;
+  width: 1078px;
+  height: 290px;
+}
+
+.principal .ellipse {
+    position: absolute;
+    top: 924px;
+    left: 1300px;
+    width: 400px;
+    height: 405px;
+    object-fit: cover;
+}
+
+.principal .rectangle-2 {
+  position: absolute;
+  top: 2565px;
+  left: 81px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.principal .rectangle-3 {
+  position: absolute;
+  top: 1646px;
+  left: 666px;
+  width: 65px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.principal .rectangle-4 {
+  position: absolute;
+  top: 1787px;
+  left: 639px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.principal .rectangle-5 {
+  position: relative;
+  top: 1780px;
+  left: 1250px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.principal .rectangle-6 {
+  position: absolute;
+  top: 1642px;
+  left: 1093px;
+  width: 68px;
+  height: 65px;
+  object-fit: cover;
+}
+
+.principal .rectangle-7 {
+  position: absolute;
+  top: 1642px;
+  left: 1153px;
+  width: 67px;
+  height: 65px;
+  object-fit: cover;
+}
+
+.principal .rectangle-8 {
+  position: absolute;
+  top: 2916px;
+  left: 81px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.principal .rectangle-9 {
+  position: absolute;
+  top: 2682px;
+  left: 81px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.principal .rectangle-10 {
+  position: absolute;
+  top: 3033px;
+  left: 81px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.principal .rectangle-11 {
+  position: absolute;
+  top: 2799px;
+  left: 81px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.principal .rectangle-12 {
+  position: absolute;
+  top: 3150px;
+  left: 81px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.principal .rectangle-13 {
+  position: absolute;
+  top: 3267px;
+  left: 81px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.principal .rectangle-14 {
+  position: absolute;
+  top: 3384px;
+  left: 81px;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+}
+
+/* --- Sistema de Estrellas (Calificaciones) --- */
+
+.principal .star    { top: 2581px; left: 426px; position: absolute; width: 49px; height: 47px; }
+.principal .star-2  { top: 2698px; left: 426px; position: absolute; width: 49px; height: 47px; }
+.principal .star-3  { top: 2815px; left: 426px; position: absolute; width: 49px; height: 47px; }
+.principal .star-4  { top: 2932px; left: 426px; position: absolute; width: 49px; height: 47px; }
+.principal .star-5  { top: 3049px; left: 426px; position: absolute; width: 49px; height: 47px; }
+.principal .star-6  { top: 3166px; left: 426px; position: absolute; width: 49px; height: 47px; }
+.principal .star-7  { top: 3283px; left: 426px; position: absolute; width: 49px; height: 47px; }
+.principal .star-8  { top: 3400px; left: 426px; position: absolute; width: 49px; height: 47px; }
+.principal .star-9  { top: 2581px; left: 496px; position: absolute; width: 49px; height: 47px; }
+.principal .star-10 { top: 2698px; left: 496px; position: absolute; width: 49px; height: 47px; }
+.principal .star-11 { top: 2815px; left: 496px; position: absolute; width: 49px; height: 47px; }
+.principal .star-12 { top: 2932px; left: 496px; position: absolute; width: 49px; height: 47px; }
+.principal .star-13 { top: 3049px; left: 496px; position: absolute; width: 49px; height: 47px; }
+.principal .star-14 { top: 3166px; left: 496px; position: absolute; width: 49px; height: 47px; }
+.principal .star-15 { top: 3283px; left: 496px; position: absolute; width: 49px; height: 47px; }
+.principal .star-16 { top: 3400px; left: 496px; position: absolute; width: 49px; height: 47px; }
+.principal .star-17 { top: 2581px; left: 636px; position: absolute; width: 49px; height: 47px; }
+.principal .star-18 { top: 2698px; left: 636px; position: absolute; width: 49px; height: 47px; }
+.principal .star-19 { top: 2815px; left: 636px; position: absolute; width: 49px; height: 47px; }
+.principal .star-20 { top: 2932px; left: 636px; position: absolute; width: 49px; height: 47px; }
+.principal .star-21 { top: 3049px; left: 636px; position: absolute; width: 49px; height: 47px; }
+.principal .star-22 { top: 3166px; left: 636px; position: absolute; width: 49px; height: 47px; }
+.principal .star-23 { top: 3283px; left: 636px; position: absolute; width: 49px; height: 47px; }
+.principal .star-24 { top: 3400px; left: 636px; position: absolute; width: 49px; height: 47px; }
+.principal .star-25 { top: 2581px; left: 566px; position: absolute; width: 49px; height: 47px; }
+.principal .star-26 { top: 2698px; left: 566px; position: absolute; width: 49px; height: 47px; }
+.principal .star-27 { top: 2815px; left: 566px; position: absolute; width: 49px; height: 47px; }
+.principal .star-28 { top: 2932px; left: 566px; position: absolute; width: 49px; height: 47px; }
+.principal .star-29 { top: 3049px; left: 566px; position: absolute; width: 49px; height: 47px; }
+.principal .star-30 { top: 3166px; left: 566px; position: absolute; width: 49px; height: 47px; }
+.principal .star-31 { top: 3283px; left: 566px; position: absolute; width: 49px; height: 47px; }
+.principal .star-32 { top: 3400px; left: 566px; position: absolute; width: 49px; height: 47px; }
+.principal .star-33 { top: 2581px; left: 706px; position: absolute; width: 49px; height: 47px; }
+.principal .star-34 { top: 2698px; left: 706px; position: absolute; width: 49px; height: 47px; }
+.principal .star-35 { top: 2815px; left: 706px; position: absolute; width: 49px; height: 47px; }
+.principal .star-36 { top: 2932px; left: 706px; position: absolute; width: 49px; height: 47px; }
+.principal .star-37 { top: 3049px; left: 706px; position: absolute; width: 49px; height: 47px; }
+.principal .star-38 { top: 3166px; left: 706px; position: absolute; width: 49px; height: 47px; }
+.principal .star-39 { top: 3283px; left: 706px; position: absolute; width: 49px; height: 47px; }
+.principal .star-40 { top: 3400px; left: 706px; position: absolute; width: 49px; height: 47px; }
+
+/* ------------------------------------------- */
+
+.principal .text-wrapper-16 {
+  position: absolute;
+  top: 2600px;
+  left: 189px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-17 {
+  position: absolute;
+  top: 2834px;
+  left: 187px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-18 {
+  position: absolute;
+  top: 3068px;
+  left: 185px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-19 {
+  position: absolute;
+  top: 3302px;
+  left: 183px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-20 {
+  position: absolute;
+  top: 2717px;
+  left: 181px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-21 {
+  position: absolute;
+  top: 2951px;
+  left: 179px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-22 {
+  position: absolute;
+  top: 3185px;
+  left: 177px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .text-wrapper-23 {
+  position: absolute;
+  top: 3419px;
+  left: 175px;
+  width: 224px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .trabajos {
+    position: absolute;
+    top: 1415px;
+    left: 1306px;
+    width: 348px;
+    height: 90px;
+    background-color: #0593a2;
+    border-radius: 46px;
+}
+
+.principal .text-wrapper-24 {
+  position: absolute;
+  width: 82.18%;
+  height: 64.44%;
+  top: 17.78%;
+  left: 17.82%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.principal .nam-tempor-nam-lacus {
+  position: absolute;
+  top: 2045px;
+  left: calc(50% - 824px);
+  width: 602px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 20.1px;
+}
+
+.principal .p {
+  position: absolute;
+  top: 1321px;
+  left: calc(50% - 816px);
+  width: 1400px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 14.1px;
+}
+
+.principal .nam-tempor-nam-lacus-2 {
+  position: absolute;
+  top: 2134px;
+  left: calc(50% - 44px);
+  width: 630px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20.1px;
+}
+
+.principal .nam-tempor-nam-lacus-3 {
+  position: absolute;
+  top: 2958px;
+  left: calc(50% + 175px);
+  width: 443px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20.1px;
+}
+
+.principal .nam-tempor-nam-lacus-4 {
+  position: absolute;
+  top: 2562px;
+  left: calc(50% + 175px);
+  width: 502px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20.1px;
+}
+
+@media (max-width: 1699px) {
+  .principal {
+    min-width: 100%;
+    height: auto;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  /* Desactivar posiciones absolutas críticas que rompen pantallas */
+  .principal .rectangle {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .principal .text-wrapper-3 {
+    position: relative;
+    top: 0; left: 0;
+    font-size: 12vw;
+    text-align: center;
+    width: 100%;
+  }
+
+  .principal .text-wrapper-2 {
+    position: relative;
+    top: 0; left: 0;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .principal .div {
+    position: relative;
+    top: -20px; left: 0;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .principal .text-wrapper {
+    position: relative;
+    top: 0; left: 0;
+    font-size: 28px;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Contenedor Presentación */
+  .principal .text-wrapper-11 { position: relative; top: 20px; left: 0; text-align: center; }
+  .principal .text-wrapper-4 { position: relative; top: 20px; left: 0; text-align: center; font-size: 42px; width: 100%; }
+  
+  .principal .ellipse {
+    position: relative;
+    top: 40px; left: 0;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .principal .p {
+    position: relative;
+    top: 60px; left: 0;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .principal .trabajos {
+    position: relative;
+    top: 80px; left: 0;
+    margin: 0 auto 40px auto;
+  }
+
+  /* Sección Contacto Limpia */
+  .principal .text-wrapper-5 {
+    position: relative;
+    top: 80px; left: 0;
+    text-align: center;
+    font-size: 48px;
+    width: 100%;
+  }
+
+  /* Ocultar iconos sueltos viejos y activar Grid ordenado */
+  .principal .rectangle-3, .principal .rectangle-4, .principal .rectangle-5, .principal .rectangle-7,
+  .principal .text-wrapper-12, .principal .text-wrapper-13, .principal .text-wrapper-14, .principal .text-wrapper-15 {
+    display: none;
+  }
+
+  .contacto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 120px;
+  }
+  .contacto-item {
+    display: flex;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    gap: 15px;
+  }
+  .contacto-item img { width: 35px; height: 35px; object-fit: contain; }
+  .contacto-item div { font-family: "Oswald"; font-size: 18px; color: #000; }
+
+  /* Bloque de Información Inferior Fluido */
+  .info-container {
+    position: relative;
+    top: 60px; left: 0;
+    width: 90%;
+    max-width: 1100px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .col-izq, .col-der {
+    width: 100%;
+    gap: 40px;
+  }
+
+  .principal .text-wrapper-6, .principal .text-wrapper-7, .principal .text-wrapper-8, .principal .text-wrapper-9, .principal .text-wrapper-10 {
+    position: relative;
+    top: 0; left: 0;
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .programas-lista {
+    position: relative;
+    top: 20px; left: 0;
+    width: 100%;
+  }
+
+  .programa-item {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+/* Dispositivos Móviles (Celulares) */
+@media (max-width: 767px) {
+  .programa-item {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap: 10px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .programa-item [class^="text-wrapper-"] {
+    margin-left: 0;
+  }
+  .stars-row {
+    margin-left: 0;
+    gap: 10px;
+  }
+  .stars-row img {
+    width: 30px;
+    height: 28px;
+  }
+}
