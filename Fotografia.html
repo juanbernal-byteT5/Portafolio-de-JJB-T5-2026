@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/global-Fotografia.css" />
+    <link rel="stylesheet" href="css/style-Fotografia.css" />
+  </head>
+  <body>
+    <div class="fotografia">
+      <div class="rectangle"></div>
+      <div class="div"></div>
+      
+      <a href="index.html">
+        <div class="home">
+          <div class="rectangle-7"></div>
+          <div class="text-wrapper-9">Inicio</div>
+        </div>
+      </a>
+
+      <a href="Animacion.html">
+        <div class="siguiente">
+          <div class="rectangle-7"></div>
+          <div class="text-wrapper-9">Siguiente</div>
+        </div>
+      </a>
+
+      <div class="text-wrapper-2">Fotografia</div>
+      
+      <div class="rectangle-2"></div>
+      
+      <img class="rectangle-4" src="images-Fotografia/_DSC0017.JPG" />
+      <img class="rectangle-5" src="images-Fotografia/_DSC0220.JPG" />
+      
+      <p class="p">
+        La fotografía se ha convertido en una forma de expresar mi visión y mi manera de observar el mundo. A través de cada imagen intento capturar 
+        no solo un momento, sino también una emoción, una atmósfera y una historia. Me gusta trabajar con iluminación, colores y composición para
+        crear fotografías que transmitan personalidad y fuerza visual.
+      </p>
+
+      <img class="rectangle-6" src="images-Fotografia/_DSC0243.JPG" />
+      <img class="img" src="images-Fotografia/_DSC0092.JPG" />
+      
+      <p class="text-wrapper-4">
+        Con el tiempo he aprendido que una buena fotografía no depende únicamente de la cámara, sino también de la creatividad, la paciencia y 
+        la capacidad de encontrar detalles que muchas veces pasan desapercibidos. Cada sesión y cada foto representan una oportunidad para 
+        mejorar y experimentar con nuevas ideas.
+      </p>
+      
+      <img class="rectangle-3" src="images-Fotografia/_DSC0215.JPG" />
+
+      <div class="Gallery">
+        <ul class="cards">
+          <li class="card"><img src="images-Fotografia/_DSC0013.JPG" alt="0"></li>
+          <li class="card"><img src="images-Fotografia/_DSC0167.JPG" alt="1"></li>
+          <li class="card"><img src="images-Fotografia/_DSC0169.JPG" alt="2"></li>
+          <li class="card"><img src="images-Fotografia/_DSC0228.JPG" alt="3"></li>
+          <li class="card"><img src="images-Fotografia/_DSC0233.JPG" alt="4"></li>
+          <li class="card"><img src="images-Fotografia/WhatsApp Image 2026-03-07 at 1.05.21 PM.jpeg" alt="5"></li>
+          <li class="card"><img src="images-Fotografia/_DSC0007.JPG" alt="6"></li>
+          <li class="card"><img src="images-Fotografia/_DSC0235.JPG" alt="7"></li>
+        </ul>
+        <div class="gallery-controls">
+          <button id="btn-prev">PREV</button>
+          <button id="btn-next">NEXT</button>
+        </div>
+      </div>
+      
+      <div class="text-wrapper-7">MI RECORRIDO FOTOGRAFICO</div>
+      <p class="text-wrapper-5">
+        Mi recorrido en la fotografía comenzó como una simple curiosidad, pero poco a poco se convirtió en una pasión. A través de la práctica, los 
+        errores y la experimentación, fui aprendiendo a entender mejor la luz, los ángulos y la composición. Cada fotografía que tomo representa una 
+        parte de mi crecimiento y de mi manera de ver el mundo.
+      </p>
+      
+      <div class="text-wrapper-8">DE CERO A INCREIBLE CON LAS CAMARAS</div>
+      <p class="text-wrapper-6">
+        Empecé sin tener mucha experiencia en fotografía, aprendiendo poco a poco desde lo más básico. Con práctica y dedicación descubrí cómo usar la 
+        cámara para transformar ideas simples en imágenes con impacto visual. Hoy veo la fotografía no solo como una habilidad, sino como una forma de 
+        creatividad y expresión personal.
+      </p>
+      
+      <img class="rectangle-15" src="images-Fotografia/52987733113943372.jpg" />
+    </div>
+
+    <script>
+      const cards = document.querySelectorAll('.Gallery .card');
+      const prevBtn = document.getElementById('btn-prev');
+      const nextBtn = document.getElementById('btn-next');
+      let currentIndex = 0;
+
+      function updateCarousel() {
+        cards.forEach((card, index) => {
+          card.classList.remove('active', 'prev', 'next', 'hidden');
+
+          if (index === currentIndex) {
+            card.classList.add('active');
+          } else if (index === (currentIndex + 1) % cards.length) {
+            card.classList.add('next');
+          } else if (index === (currentIndex - 1 + cards.length) % cards.length) {
+            card.classList.add('prev');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      }
+
+      nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % cards.length;
+        updateCarousel();
+      });
+
+      prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+        updateCarousel();
+      });
+
+      updateCarousel();
+    </script>
+  </body>
+</html>
